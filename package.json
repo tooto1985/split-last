@@ -1,0 +1,19 @@
+{
+  "name": "split-last",
+  "version": "0.0.1",
+  "description": "split the last separator",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tooto1985/split-last.git"
+  },
+  "keywords": [
+    "split"
+  ],
+  "author": "Tommy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tooto1985/split-last/issues"
+  },
+  "homepage": "https://github.com/tooto1985/split-last#readme"
+}
