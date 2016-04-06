@@ -1,19 +1,12 @@
-String.prototype.splitLast = function (separator) {
+String.prototype.splitLast = function(separator) {
     var si = this.split(separator);
-    var sb = "";
-    var max = si.length;
-    for (var i = 0; i < max; i++) {
-        if (i < max-1) {
-            sb += si[i];
-            if (i < max-2) {
-                sb += separator;
-            }
-        }
-    }
     var output = [];
-    if (sb !== "") {
-        output.push(sb);
+    var last = si.pop();
+    if (si.length > 0) {
+        output.push(si.join(separator));
     }
-    output.push(si[max-1]);
+    if (last) {
+        output.push(last);
+    }
     return output;
 };

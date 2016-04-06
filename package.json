@@ -1,6 +1,6 @@
 {
   "name": "split-last",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Split the last separator of string.",
   "main": "index.js",
   "repository": {
