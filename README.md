@@ -2,6 +2,7 @@
 =============================
 > Split the last separator of string.
 
+[![NPM](https://nodei.co/npm/split-last.png)](https://nodei.co/npm/split-last/)
 
 ## Install
 
